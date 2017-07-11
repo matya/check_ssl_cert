@@ -603,7 +603,8 @@ main() {
                 fi
                 ;;
             --ignore-missing-san)
-	        IGNORE_MISSING_SAN="1"
+                IGNORE_MISSING_SAN="1"
+                shift
                 ;;
             -L|--check-ssl-labs)
                 if [ $# -gt 1 ]; then
